@@ -6,9 +6,9 @@
 #
 # Author: Yu-Tang, Shen
 library(igraph)
-setwd("/Users/yutang/Desktop/R")
+setwd("/Users/yutang/Desktop/IS4241_R")
 
-data = read.csv(file = "CompleteData.csv", header = FALSE, sep = ",")
+data = read.csv(file = "Network_Edgelist.csv", header = FALSE, sep = ",")
 el = data[1:2]
 inet = graph_from_edgelist(as.matrix(el, directed = TRUE))
 E(inet)$weight = 1/data[,3]
