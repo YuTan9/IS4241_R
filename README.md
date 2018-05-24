@@ -5,4 +5,4 @@ This is a social media analysis regarding to the citing relationships between JC
 
 Run "projectScript.R" to check out the weighted degree centrality, adjacency matrix, and the graphic image of the citation relationships. 
 
-Final report link: <a href="https://drive.google.com/drive/folders/1S7Th-OCefGPbAhwHh-deB8rSWdWTXgVR?usp=sharing">report</a>
+To read the complete analysis report please refer to <a href="https://github.com/YuTan9/IS4241_R/Final_report">*Final_report*</a>
